@@ -1,0 +1,13 @@
+banshee2amarok - Convert banshee track play counts and ratings to amarok.
+
+Copyright 2011 Philipp Ittershagen <p.ittershagen@googlemail.com>
+
+This script converts the banshee music play counts and song ratings to the
+amarok database. It searches for tracks which where played or rated in the
+banshee database and then tries to find the track entry in the amarok
+database. If the track was found,, the play count and the rating will be
+written to the amarok database.
+
+Inspired by https://github.com/saschpe/amarok2clementine.
+
+Tested with Amarok 2.4 and Banshee 2.2.
